@@ -1,0 +1,26 @@
+name: Windows Build
+on: 
+  push:
+    paths-ignore:
+      - 'README.md'
+      - 'LICENSE'    
+  pull_request:
+    paths-ignore:
+      - 'README.md'
+      - 'LICENSE'    
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - name: Install Qt
+      uses: jurplel/install-qt-action@v2    
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: Run Visual Studio
+      shell: cmd
+      run: |
+        call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Auxiliary\Build\vcvars64.bat"
+        cd QMineSweeper
+        qmake
+        make
+ 

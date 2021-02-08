@@ -19,3 +19,19 @@ QMineSweeper is an open source minesweeper game written in Qt by LanGong Dev lik
 #### NOTICE: If you cannot run the EXE, Please run `MSVC Installer` to install MSVC!
 
 ### Linux
+
+Need `qt5-base` or `qmake`.
+
+- Via curl
+
+```bash
+$ curl https://github.com/langong-dev/QMineSweeper/releases/download/0.0.1/QMineSweeper_0.0.1_Linux-MacOS_Compiler.sh > qmsi.sh
+# bash qmsi.sh
+```
+
+- Via wget
+
+```bash
+$ wget https://github.com/langong-dev/QMineSweeper/releases/download/0.0.1/QMineSweeper_0.0.1_Linux-MacOS_Compiler.sh -O qmsi.sh
+# bash qmsi.sh
+```

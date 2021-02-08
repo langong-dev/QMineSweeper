@@ -78,7 +78,8 @@ jobs:
           CC: cl.exe
           CXX: cl.exe
         run: |
-          cmake . \
+          qmake
+          make . \
             -GNinja \
             -DCMAKE_BUILD_TYPE=${{ matrix.build_type }} \
             -DLEMON_QT6=ON \

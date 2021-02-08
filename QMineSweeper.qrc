@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>image/agree.png</file>
+        <file>image/baidu.png</file>
+        <file>image/blk1.bmp</file>
+        <file>image/blk2.bmp</file>
+        <file>image/blk3.bmp</file>
+        <file>image/blk4.bmp</file>
+        <file>image/blk5.bmp</file>
+        <file>image/blk6.bmp</file>
+        <file>image/blk7.bmp</file>
+        <file>image/block_close.bmp</file>
+        <file>image/block_open.bmp</file>
+        <file>image/boom.bmp</file>
+        <file>image/clickboom.bmp</file>
+        <file>image/ele0.bmp</file>
+        <file>image/ele1.bmp</file>
+        <file>image/ele2.bmp</file>
+        <file>image/ele3.bmp</file>
+        <file>image/ele4.bmp</file>
+        <file>image/ele5.bmp</file>
+        <file>image/ele6.bmp</file>
+        <file>image/ele7.bmp</file>
+        <file>image/ele8.bmp</file>
+        <file>image/ele9.bmp</file>
+        <file>image/ele10.bmp</file>
+        <file>image/good.png</file>
+        <file>image/keilboom.bmp</file>
+        <file>image/look.bmp</file>
+        <file>image/lose.bmp</file>
+        <file>image/low.png</file>
+        <file>image/mine_title.bmp</file>
+        <file>image/proud.bmp</file>
+        <file>image/redflag.bmp</file>
+        <file>image/smile.bmp</file>
+        <file>image/unknow.png</file>
+        <file>image/win.png</file>
+        <file>image/langong.png</file>
+        <file>image/langong.icns</file>
+    </qresource>
+</RCC>

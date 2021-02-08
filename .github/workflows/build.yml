@@ -7,8 +7,6 @@ on:
 
 jobs:
   build:
-    needs: check_commit_msg
-    if: ${{ !contains( needs.check_commit_msg.outputs.commit_message, 'NO_MAIN') }}
     strategy:
       matrix:
         qt_version: [5.15.0]

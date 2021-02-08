@@ -74,9 +74,6 @@ jobs:
 
       - name: Win-x64 - ${{ matrix.qt_version }} - Generate Dependencies and Build
         shell: bash
-        env:
-          CC: cl.exe
-          CXX: cl.exe
         run: |
           qmake
           make clean

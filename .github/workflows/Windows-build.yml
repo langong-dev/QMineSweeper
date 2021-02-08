@@ -79,6 +79,7 @@ jobs:
           CXX: cl.exe
         run: |
           qmake
+          make clean
           make
       - name: package
         env:

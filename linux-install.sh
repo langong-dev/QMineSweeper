@@ -1,8 +1,6 @@
 #/bin/bash
 
-echo ' LanGong ScreenShot-L Install Script'
-
-
+echo ' LanGong LGame QMineSweeper Install Script'
 
 compile (){
   echo ' >> Compile'
@@ -13,8 +11,8 @@ compile (){
 }
 
 installto (){
-  bin=$1
-  dir=$2
+  bin="$1"
+  dir="$2"
   echo ' >> Install'
   echo '    -> (0/1) Install bin to "'$bin'"'
   cp ScreenShot "$bin/screenshotl" || cp bin/ScreenShot "$bin/screenshotl"
@@ -25,8 +23,8 @@ installto (){
 
 if [ $1 == 'dir' ]; then
   compile
-  installto $2 $3
+  installto "$2" "$3"
 else
   compile
-  installto /usr/bin /usr/share
+  installto "/usr/bin" "/usr/share"
 fi

@@ -1,4 +1,4 @@
-name: MacOS
+name: MacOS Qt
 on: 
   push:
     paths-ignore:
@@ -49,6 +49,6 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: bin/release/${{ env.targetName }}.dmg
-          asset_name: ${{ env.targetName }}_${{ matrix.os }}_${{ matrix.qt_ver }}.dmg
+          asset_name: ${{ env.targetName }}-VERSION-Qt${{ matrix.qt_ver }}-${{ matrix.os }}.dmg
           tag: ${{ github.ref }}
           overwrite: true

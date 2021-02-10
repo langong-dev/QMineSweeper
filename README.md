@@ -8,17 +8,23 @@ QMineSweeper is an open source minesweeper game written in Qt by LanGong Dev lik
 
 #### Install to computer
 
-1. Download `QMineSweeper_VERSION_Windows_Installer_x64.exe` from releases page.
-2. Run `QMineSweeper_VERSION_Windows_Installer_x64.exe`.
+1. Download `QMineSweeper-VERSION-win64(win32)-Installer.exe` from releases page.
+2. Run it.
 
 #### Don't Install to computer
 
-1. Download `QMineSweeper_VERSION_Windows_x64.exe` from releases page.
-2. Run `QMineSweeper_VERSION_Windows_x64.exe`.
+1. Download `QMineSweeper-VERSION-win64(win32).exe` from releases page.
+2. Run it.
 
 #### NOTICE: If you cannot run the EXE, Please run `MSVC Installer` to install MSVC!
 
-### Linux & MacOS
+### MacOS
+
+1. Download `QMineSweeper-VERSION-macos.dmg` from releases page.
+2. Open it.
+3. Move the QMS to Application forlder.
+
+### Linux
 
 Need `qt5-base` or `qmake`.
 
@@ -38,10 +44,10 @@ $ wget https://github.com/langong-dev/QMineSweeper/releases/download/0.0.1/QMine
 
 ## Run QMineSweeper
 
-### Windows
+### Windows & MacOS
 
 Find `QMineSweeper` in Start Menu.
 
-### Linux & MacOS
+### Linux
 
 Type `qminesweeper` in terminal.
